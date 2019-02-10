@@ -1,0 +1,118 @@
+<!-- this is a comment. That means anything I put in here won't show up on the
+actual page. It's used to explain things in your code -->
+<!doctype html> <!-- this tells the file that we're using html -->
+
+<html lang="en"> <!-- wraps all of the html -->
+<head> <!-- information about the document goes between the <head> tags -->
+  <meta charset="utf-8">
+
+  <title>Takaia's Webpage Tutorial</title>
+  <meta name="author" content="Takaia">
+  <meta name="description" content="Takaia's helping friends learn to code websites">
+  <meta name="keywords" content="HTML,CSS">
+
+  <base href="." target="_self">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- edit starting here -->
+    <header>
+        the <code>&lt;header&gt;</code> tag just defines the section of the page for the header
+        <nav>
+            <ul>
+                <li> <a href="index.html">basic HTML</a> </li>
+                <li> <a href="advanced.html">advanced HTML</a> </li>
+                <li> <a href="#">a dummy link</a> (doesn't go anywhere) </li>
+                <li> <a href="#">check this out with some CSS</a> (coming soon?) </li>
+                <li> <a href="view-source:https://takaia.heliohost.org/">see the html</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr> <!-- this makes a horizontal line/divider -->
+    <main> <!-- defines the main body of the page -->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <a href="https://artfight.net">link</a>
+        <p>paragraph</p>
+        <b>bold</b>
+        <i>italic</i>
+        <u>underline</u>
+        <p><b><i><u>you can combine all 3</u></i></b></p>
+        <p><button> click me I'm a button that doesn't do anything! </button></p>
+        <div> you'll use divs a lot when combining html with css... </div>
+        <img src="img/benjamin.jpg">
+        <ol>
+            <li>an</li>
+            <li>ordered</li>
+            <li>list</li>
+        </ol>
+        <s>strikethrough text</s>
+        <sub>subscript</sub><sup>superscript</sup>
+        <br> <!-- br makes a new line -->
+        <small>smaller text</small>
+        <table>
+            <caption>A smol table</caption>
+            <thead>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 1,1 </td>
+                    <td> 1,2 </td>
+                    <td> 1,3 </td>
+                </tr>
+                <tr>
+                    <td> 2,1 </td>
+                    <td> 2,2 </td>
+                    <td> 2,3 </td>
+                </tr>
+                <tr>
+                    <td> 3,1 </td>
+                    <td> 3,2 </td>
+                    <td> 3,3 </td>
+                </tr>
+            </tbody>
+        </table>
+        <video width="320" height="320" controls>
+            <source src="vid/thylacine.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br>
+        <audio controls>
+            <source src="sound/Evoker_wololo.ogg" type="audio/ogg">
+            Your browser does not support the audio tag.
+        </audio>
+        <br>
+        <p><input type="text" placeholder="text input box"></input></p>
+        <p><input type="checkbox">checkbox</input></p>
+        <p><input type="email" placeholder="email input box"></input></p>
+        <p><input type="number" placeholder="number input box"></input></p>
+        <p><input type="password" placeholder="password input box"></input></p>
+        <p><input type="radio">radio button</input></p>
+        <p><input type="search" placeholder="search"></input></p>
+        <p><input type="submit"></input></p>
+
+
+
+
+    </main>
+    <hr>
+    <footer>
+        the <code>&lt;footer&gt;</code> tag just defines the section of the page for the footer
+    </footer>
+
+    <!-- anything past here won't show up on your page visually -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
